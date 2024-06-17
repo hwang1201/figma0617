@@ -1,0 +1,21 @@
+/* 피그마의 라이브러리 공통클래스 만들어두었습니다 */
+:root{
+    --basecolor: #333;
+    --activecolor: #0FAF32;
+    --fontfmaily : "Noto Sans KR";
+}
+body{
+    color: var(--basecolor);
+/* 일반폰트 */
+font-family: var(--fontfmaily);
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.0625rem;
+}
+a{
+    color: var(--basecolor);
+    text-decoration: none;
+
+}
